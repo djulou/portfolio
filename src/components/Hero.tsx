@@ -3,7 +3,7 @@ import '../styles/Hero.css'
 export default function Hero() {
   return (
     <section className="hero">
-        <img className="paysage" src="/public/img/paysage.jpg" alt="paysage" />
+        <img className="paysage" src="../../public/img/paysage.jpg" alt="paysage" />
         <div className="hero-content">
           <div className="first_texte">
             <h1>Bonjour</h1>
