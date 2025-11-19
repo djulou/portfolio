@@ -1,4 +1,5 @@
 import '../styles/Hero.css'
+import paysage from '../../public/img/paysage.jpg';
 
 export default function Hero() {
   return (
@@ -10,7 +11,7 @@ export default function Hero() {
             <h2>Je m'appelle <span>Dorian</span></h2>
             <p>Bienvenue sur mon portfolio !</p>
           </div>
-          <img className="profil" src="/public/img/64.png" alt="profil" />
+          <img className="profil" src={paysage} alt="profil" />
         </div>
         <div className="scroll-arrow">
           <span>▼</span>
